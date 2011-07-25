@@ -1,0 +1,4 @@
+Setfive Consulting LLC
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery
+Software: LAMP w/ PHP
