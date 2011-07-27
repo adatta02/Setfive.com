@@ -63,8 +63,6 @@ of a hat.</p>
 	<li><a target="_blank"
 		href="http://www.linkedin.com/in/ashishdattasetfive"><img
 		src="/images/linkedin.png"></a></li>
-	<li><a target="_blank" href="http://www.facebook.com/adatta"><img
-		src="/images/facebook.png"></a></li>
 	<li><a target="_blank"
 		href="http://news.ycombinator.com/user?id=adatta02"><img
 		src="/images/hn.png"></a></li>
@@ -94,8 +92,6 @@ some of his product.</p>
 	<li><a target="_blank"
 		href="http://www.linkedin.com/in/mattdaum"><img
 		src="/images/linkedin.png"></a></li>
-	<li><a target="_blank" href="http://www.facebook.com/profile.php?id=1708763"><img
-		src="/images/facebook.png"></a></li>
 	<li><a target="_blank"
 		href="http://news.ycombinator.com/user?id=matttah"><img
 		src="/images/hn.png"></a></li>

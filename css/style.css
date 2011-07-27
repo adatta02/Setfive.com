@@ -963,6 +963,11 @@ ul.padded li {
         #cboxClose{position:absolute; top:5px; right:5px; display:block; background:url(images/controls.png) no-repeat top center; width:38px; height:19px; text-indent:-9999px;}
         #cboxClose.hover{background-position:bottom center;}
 
+.client-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
 /**
  * Placeholder media queries for responsive design. Modify as design requires.
  * These follow after, and will override, the primary ('mobile first') styles

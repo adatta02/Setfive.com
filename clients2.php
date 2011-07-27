@@ -7,32 +7,32 @@
 <div class="main-body">
 
 <div class="grid_4 alpha">
-<ul class="sidebar listless">
-	<li>Acquia</li>
-	<li>BanyanLink</li>
-	<li>BIGfish Marketing</li>
-	<li>ChatThreads</li>
-	<li>CVET</li>
-	<li>Datapoint Media</li>
-	<li>FanFeedr</li>
+  <ul class="sidebar listless">
+    <li>Acquia</li>
+    <li>BanyanLink</li>
+    <li>BIGfish Marketing</li>
+    <li>ChatThreads</li>
+    <li>CVET</li>
+    <li>Datapoint Media</li>
+    <li>FanFeedr</li>
     <li>ForexTV</li>
-	<li>Gallery Leather</li>
-	<li>Her Campus</li>
-	<li>Hunt and Gather</li>
+    <li>Gallery Leather</li>
+    <li>Her Campus</li>
+    <li>Hunt and Gather</li>
     <li>Illumen</li>
     <li>LFB Services</li>
-	<li>The Museum of Fine Arts</li>
-	<li>OmniStrat</li>
-	<li>oneZero Financial</li>
+    <li>The Museum of Fine Arts</li>
+    <li>OmniStrat</li>
+    <li>oneZero Financial</li>
     <li>Online Buddies</li>
-	<li>Pagecoop</li>
-	<li>Purpose Beverages</li>
+    <li>Pagecoop</li>
+    <li>Purpose Beverages</li>
     <li>RentPrefs</li>
     <li>tru.ly</li>
-	<li>Tufts University</li>
+    <li>Tufts University</li>
     <li>WeGov</li>
     <li class='last'>YallAboard</li>
-</ul>
+  </ul>
 
 </div>
 
@@ -53,35 +53,35 @@ case "":
 	    <table class="screenshot-table">
 	        <tbody>
 	            
-              <tr>
+	            <tr>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/ct.png"><img src="/images/screenshots/ct_small.png" /></a></td>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/trackyourimpact.png"><img src="/images/screenshots/trackyourimpact_small.png" /></a></td>
-                  <td><a class="colorbox" rel="screenshots" href="/images/screenshots/banyanlink.png"><img src="/images/screenshots/banyanlink_small.png" /></a></td>
+	                <td><a class="colorbox" rel="screenshots" href="/images/screenshots/banyanlink.png"><img src="/images/screenshots/banyanlink_small.png" /></a></td>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/galleryleather.png"><img src="/images/screenshots/galleryleather_small.png" /></a></td>
               </tr>
 
-  
-              <tr>
+	
+	            <tr>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/wegov_reports.png"><img src="/images/screenshots/wegov_reports_small.png" /></a></td>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/truly.png"><img src="/images/screenshots/truly_small.png" /></a></td>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/omnistrat.png"><img src="/images/screenshots/omnistrat_small.png" /></a></td>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/pagecoop.png"><img src="/images/screenshots/pagecoop_small.png" /></a></td>
-              </tr>
-              
-              <tr>
-                  <td><a class="colorbox" rel="screenshots" href="/images/screenshots/hercampus.png"><img src="/images/screenshots/hercampus_small.png" /></a></td>
+	            </tr>
+	            
+	            <tr>
+	                <td><a class="colorbox" rel="screenshots" href="/images/screenshots/hercampus.png"><img src="/images/screenshots/hercampus_small.png" /></a></td>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/forextv.png"><img src="/images/screenshots/forextv_small.png" /></a></td>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/fanfeedr.png"><img src="/images/screenshots/fanfeedr_small.png" /></a></td>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/mfa.png"><img src="/images/screenshots/mfa_small.png" /></a></td>
-              </tr>
-              
-              <tr>
+	            </tr>
+	            
+	            <tr>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/dpmsrv.png"><img src="/images/screenshots/dpmsrv_small.png" /></a></td>
-                  <td><a class="colorbox" rel="screenshots" href="/images/screenshots/rent_prefs.jpg"><img src="/images/screenshots/rent_prefs_small.jpg" /></a></td>
+                  <td><a class="colorbox" rel="screenshots" href="/images/screenshots/touchpoints.png"><img src="/images/screenshots/touchpoints_small.png" /></a></td>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/cvet.png"><img src="/images/screenshots/cvet_small.png" /></a></td>
                   <td><a class="colorbox" rel="screenshots" href="/images/screenshots/arms.png"><img src="/images/screenshots/arms_small.png" /></a></td>
 
-              </tr>
+	            </tr>
 	            
 	        </tbody>
 	    </table>
@@ -100,8 +100,41 @@ case "":
 	    
 	    <div class="sep">
 	    
-            <div class="client-container"><img src="/images/clientlogos.png"></div>
+        <div class="client-container"><img src="/images/clientlogos.png"></div>
+      
+      <?php if( false ): ?>
+      
+<!-- 		    <ul class="listless padded" style="background-color:gray"> -->
+		        
+<!--	            <li><a href="http://www.inc.com/30under30/2010/index.html" target="_blank">30 under 30 via Inc</a></li>
+		        <li><a href="http://www.huffingtonpost.com/joe-waters/tevolution-brews-funds-fo_b_905132.html" target="_blank">Tevolution Brews Funds for Causes via The Huffington Post</a></li>
+		        <li><a href="http://thenextweb.com/socialmedia/2011/02/24/tru-ly-launches-as-your-internet-id-for-the-future-free-beta-invites/" target="_blank">Tru.ly launches as your Internet ID for the future via The Next Web</a></li>
+		        <li><a href="http://bostinnovation.com/2011/03/03/making-the-internet-a-safer-place-tru-ly-aims-to-be-your-online-passport/" target="_blank">Making the Internet a Safer Place: Tru.ly Aims to be Your Online Passport via BostInnovation</a></li>
+	            <li><a href="http://online.wsj.com/article/SB10001424052748704476604576158643370380186.html" target="_blank">Here, Tweeting Is a Class Requirement via The Wall Street Journal</a></li>
+	            <li><a href="http://blog.ogilvypr.com/2011/06/new-ogilvy-chatthreads-2011-study-preview-exposure-to-social-media-associated-with-sales-increase/" target="_blank">New Ogilvy-ChatThreads 2011 Study Preview: Exposure to Social Media Associated With Sales Increase via Ogilvy PR</a></li>-->
+
+        <table>
+          <tr>
+            <td><image src="/images/press-logos/cnn.gif" alt="CNN" /></td>
+            <td><image src="/images/press-logos/wsj.gif" alt="Wall Street Journal" /></td>
+            <td><image src="/images/press-logos/usa-today.jpg" alt="USA Today" /></td>
+          </tr>
+          <tr>
+            <td><image src="/images/press-logos/inc.gif" alt="Inc" /></td>
+            <td><image src="/images/press-logos/tnw.png" alt="The Next Web" /></td>
+            <td><image src="/images/press-logos/boston.gif" alt="Boston.com" /></td>      
+          </tr>
+          <tr>
+            <td><image src="/images/press-logos/barstool.png" alt="Barstool Sports" /></td>
+            <td><image src="/images/press-logos/my-fox-boston.JPG" alt="My Fox Boston" /></td>
+            <td><image src="/images/press-logos/ogilvypr.gif" alt="Ogilvy Public Relations" /></td>
+          </tr>
+        </table>
+          
+<!-- 		    </ul> -->
 	    
+      <?php endif; ?>
+      
 	    </div>
         
     </div>
@@ -285,3 +318,4 @@ case "":
 <script>
     $(".colorbox").colorbox();
 </script>
+

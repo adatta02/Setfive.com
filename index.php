@@ -51,6 +51,7 @@
 	  "team" => "Team",
 	  "ventures" => "Ventures",
 	  "clients" => "Clients",
+    "clients2" => "Clients",
 	  "contact" => "Contact"
 	);
 	
