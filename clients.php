@@ -14,6 +14,7 @@
 	<li>ChatThreads</li>
 	<li>CVET</li>
 	<li>Datapoint Media</li>
+	<li>Detroit Red Wings</li>
 	<li>FanFeedr</li>
     <li>ForexTV</li>
 	<li>Gallery Leather</li>
