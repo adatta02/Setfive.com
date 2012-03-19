@@ -29,7 +29,7 @@ in New York City.</p>
 <?php
 
   $success = false;
-  if($_SERVER['REQUEST_METHOD']=='POST')
+  if($_SERVER['REQUEST_METHOD']=='POST' && $_POST["captcha"] == "0xDEADBEEF")
   {
     if($_POST['subject']!=''&&$_POST['body']!=''&&$_POST['email']!='')
     {
@@ -71,6 +71,7 @@ in New York City.</p>
 		<tr>
 			<td colspan='2'>
 				<input name="submit" value="Send" type="submit">
+                <input type="hidden" value="" name="captcha" id="captcha">
 			</td>
 		</tr>
 	</tbody>
@@ -88,3 +89,11 @@ in New York City.</p>
 <div class="clear"></div>
 
 </div>
+
+<script type="text/javascript">
+  $(document).ready( function(){
+    $(".form").submit( function(){
+      $("#captcha").val( "0xDEADBEEF" );
+    });
+  });
+</script>
