@@ -20,6 +20,7 @@
 	  "web-application" => "Web Application Development",
 		"startup" => "Startup",
 	  "symfony" => "Symfony",
+    "metatrader-4-integrations"=>"MetaTrader 4(MT4) Integrations",
 	  "performance" => "Performance",
 	  "salesforce" => "Salesforce",
 	  "ashish-datta" => "Ashish Datta - Partner",

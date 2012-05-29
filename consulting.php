@@ -14,6 +14,7 @@
 	<li><a href="/consulting/symfony">Symfony</a></li>
 	<li><a href="/consulting/performance">Performance</a></li>
 	<li><a href="/consulting/salesforce">Salesforce</a></li>
+  <li><a href="/consulting/metatrader-4-integrations">MetaTrader4</a></li>
 </ul>
 </div>
 <div class="grid_8 omega">
@@ -35,7 +36,10 @@ developers and consultants have extremely varied backgrounds so there is
 a good chance someone will be able to work with you or point you in the
 right direction.</p>
 <?php break; ?>
+<?php case "metatrader-4-integrations":?>
+<p>We've been doing custom integrations for MetaTrader4 (MT4) for several years.  Whether you need to integrate it into your SalesForce or your custom CRM we can help out.  Please visit our <a href="http://getmetaforce.com" target="_blank">MetaForce product information page</a> for more information.</p>
 
+<?php break;?>
 <?php case "web-application": ?>
 	
 	<p>Web apps are our jam - every one we do comes with an extra large can
