@@ -43,7 +43,8 @@
 	  "onezero-financial" => "oneZero Financial",
 	  "pagecoop" => "Pagecoop",
 	  "purpose-beverages" => "Purpose Beverages",
-	  "tufts-university" => "Tufts University"
+	  "tufts-university" => "Tufts University",
+	  "careers" => "Careers"
 	);
 	
 	$ROUTING = array(
@@ -53,7 +54,8 @@
 	  "ventures" => "Ventures",
 	  "clients" => "Clients",
     "clients2" => "Clients",
-	  "contact" => "Contact"
+	  "contact" => "Contact",
+	"careers" => "Careers"
 	);
 	
 ?>
@@ -67,7 +69,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Setfive Consulting | <?php echo $ROUTING[ $key ]; ?>
+  <title>Setfive Consulting | PHP and Symfony Web Development | <?php echo $ROUTING[ $key ]; ?>
   	<?php if( $subkey ): ?>
   		> <?php echo $SUBKEY_TITLES[$subkey]; ?>
   	<?php endif; ?>
@@ -105,7 +107,8 @@
                         <?php endif; ?>
     			    	<li><a <?php echo ( $key == "team" ? "class='selected'" : "" ); ?> href="/team">team</a></li>
     			    	<li><a href="http://shout.setfive.com">blog</a></li>
-    			    	<li><a <?php echo ( $key == "contact" ? "class='selected'" : "" ); ?> href="/contact">contact</a></li>
+    			    	<li><a <?php echo ( $key == "careers" ? "class='selected'" : "" ); ?> href="/careers">careers</a></li>
+                        <li><a <?php echo ( $key == "contact" ? "class='selected'" : "" ); ?> href="/contact">contact</a></li>
     			    </ul>
     			    </nav>
             </div>
@@ -163,7 +166,7 @@
         var parts = path.split("/");
         
         if( parts.length > 1 ){
-            $("a[href='" + path + "']:first").addClass("current");
+            $("#header a[href='" + path + "']:first").addClass("current");
         }
         
     });
